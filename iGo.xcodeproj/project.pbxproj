@@ -19,6 +19,10 @@
 		E68141FF1CACDF56000E22C9 /* iGoHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E68141FE1CACDF56000E22C9 /* iGoHomeViewController.m */; };
 		E68142031CACE0EB000E22C9 /* iGoSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E68142021CACE0EB000E22C9 /* iGoSearchBar.m */; };
 		E68142051CACE0F6000E22C9 /* iGoSearchBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = E68142041CACE0F6000E22C9 /* iGoSearchBar.xib */; };
+		E68142081CACEC1F000E22C9 /* iGoCategoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = E68142071CACEC1F000E22C9 /* iGoCategoryView.m */; };
+		E681420A1CACEC2A000E22C9 /* iGoCategoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E68142091CACEC2A000E22C9 /* iGoCategoryView.xib */; };
+		E681420C1CACECD5000E22C9 /* category.plist in Resources */ = {isa = PBXBuildFile; fileRef = E681420B1CACECD5000E22C9 /* category.plist */; };
+		E68142111CACF178000E22C9 /* iGoCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = E68142101CACF178000E22C9 /* iGoCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +65,12 @@
 		E68142011CACE0EB000E22C9 /* iGoSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iGoSearchBar.h; sourceTree = "<group>"; };
 		E68142021CACE0EB000E22C9 /* iGoSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iGoSearchBar.m; sourceTree = "<group>"; };
 		E68142041CACE0F6000E22C9 /* iGoSearchBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iGoSearchBar.xib; sourceTree = "<group>"; };
+		E68142061CACEC1F000E22C9 /* iGoCategoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iGoCategoryView.h; sourceTree = "<group>"; };
+		E68142071CACEC1F000E22C9 /* iGoCategoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iGoCategoryView.m; sourceTree = "<group>"; };
+		E68142091CACEC2A000E22C9 /* iGoCategoryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iGoCategoryView.xib; sourceTree = "<group>"; };
+		E681420B1CACECD5000E22C9 /* category.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = category.plist; sourceTree = "<group>"; };
+		E681420F1CACF178000E22C9 /* iGoCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iGoCategory.h; sourceTree = "<group>"; };
+		E68142101CACF178000E22C9 /* iGoCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iGoCategory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +133,7 @@
 		E68141C11CACC8D3000E22C9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E681420D1CACF0E9000E22C9 /* plist */,
 				E68141D01CACC8D4000E22C9 /* Assets.xcassets */,
 				E68141D21CACC8D4000E22C9 /* LaunchScreen.storyboard */,
 				E68141D51CACC8D4000E22C9 /* Info.plist */,
@@ -153,8 +164,7 @@
 		E68141F71CACCA93000E22C9 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				E68141F91CACCE99000E22C9 /* iGoMainViewController.h */,
-				E68141FA1CACCE99000E22C9 /* iGoMainViewController.m */,
+				E68142131CACF235000E22C9 /* controller */,
 			);
 			name = Main;
 			sourceTree = "<group>";
@@ -171,9 +181,9 @@
 		E68141FC1CACDF3D000E22C9 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				E68142121CACF225000E22C9 /* controller */,
+				E681420E1CACF166000E22C9 /* model */,
 				E68142001CACE0CF000E22C9 /* Control */,
-				E68141FD1CACDF56000E22C9 /* iGoHomeViewController.h */,
-				E68141FE1CACDF56000E22C9 /* iGoHomeViewController.m */,
 			);
 			name = Home;
 			sourceTree = "<group>";
@@ -184,8 +194,46 @@
 				E68142011CACE0EB000E22C9 /* iGoSearchBar.h */,
 				E68142021CACE0EB000E22C9 /* iGoSearchBar.m */,
 				E68142041CACE0F6000E22C9 /* iGoSearchBar.xib */,
+				E68142061CACEC1F000E22C9 /* iGoCategoryView.h */,
+				E68142071CACEC1F000E22C9 /* iGoCategoryView.m */,
+				E68142091CACEC2A000E22C9 /* iGoCategoryView.xib */,
 			);
 			name = Control;
+			sourceTree = "<group>";
+		};
+		E681420D1CACF0E9000E22C9 /* plist */ = {
+			isa = PBXGroup;
+			children = (
+				E681420B1CACECD5000E22C9 /* category.plist */,
+			);
+			name = plist;
+			sourceTree = "<group>";
+		};
+		E681420E1CACF166000E22C9 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				E681420F1CACF178000E22C9 /* iGoCategory.h */,
+				E68142101CACF178000E22C9 /* iGoCategory.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		E68142121CACF225000E22C9 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				E68141FD1CACDF56000E22C9 /* iGoHomeViewController.h */,
+				E68141FE1CACDF56000E22C9 /* iGoHomeViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		E68142131CACF235000E22C9 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				E68141F91CACCE99000E22C9 /* iGoMainViewController.h */,
+				E68141FA1CACCE99000E22C9 /* iGoMainViewController.m */,
+			);
+			name = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,10 +341,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E681420C1CACECD5000E22C9 /* category.plist in Resources */,
 				E68141D41CACC8D4000E22C9 /* LaunchScreen.storyboard in Resources */,
 				E68141D11CACC8D4000E22C9 /* Assets.xcassets in Resources */,
 				E68141CC1CACC8D4000E22C9 /* Main.storyboard in Resources */,
 				E68142051CACE0F6000E22C9 /* iGoSearchBar.xib in Resources */,
+				E681420A1CACEC2A000E22C9 /* iGoCategoryView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +375,8 @@
 				E68141C61CACC8D3000E22C9 /* AppDelegate.m in Sources */,
 				E68141FB1CACCE99000E22C9 /* iGoMainViewController.m in Sources */,
 				E68142031CACE0EB000E22C9 /* iGoSearchBar.m in Sources */,
+				E68142081CACEC1F000E22C9 /* iGoCategoryView.m in Sources */,
+				E68142111CACF178000E22C9 /* iGoCategory.m in Sources */,
 				E68141C31CACC8D3000E22C9 /* main.m in Sources */,
 				E68141CF1CACC8D4000E22C9 /* iGo.xcdatamodeld in Sources */,
 			);
