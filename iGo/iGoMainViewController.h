@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  iGoMainViewController.h
 //  iGo
 //
 //  Created by 兰轩轩 on 16/3/31.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface iGoMainViewController : UITabBarController
 
 @end
-

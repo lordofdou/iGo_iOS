@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		E68141C31CACC8D3000E22C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E68141C21CACC8D3000E22C9 /* main.m */; };
 		E68141C61CACC8D3000E22C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E68141C51CACC8D3000E22C9 /* AppDelegate.m */; };
-		E68141C91CACC8D3000E22C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E68141C81CACC8D3000E22C9 /* ViewController.m */; };
 		E68141CC1CACC8D4000E22C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E68141CA1CACC8D4000E22C9 /* Main.storyboard */; };
 		E68141CF1CACC8D4000E22C9 /* iGo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E68141CD1CACC8D4000E22C9 /* iGo.xcdatamodeld */; };
 		E68141D11CACC8D4000E22C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E68141D01CACC8D4000E22C9 /* Assets.xcassets */; };
 		E68141D41CACC8D4000E22C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E68141D21CACC8D4000E22C9 /* LaunchScreen.storyboard */; };
 		E68141DF1CACC8D4000E22C9 /* iGoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E68141DE1CACC8D4000E22C9 /* iGoTests.m */; };
 		E68141EA1CACC8D4000E22C9 /* iGoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E68141E91CACC8D4000E22C9 /* iGoUITests.m */; };
+		E68141FB1CACCE99000E22C9 /* iGoMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E68141FA1CACCE99000E22C9 /* iGoMainViewController.m */; };
+		E68141FF1CACDF56000E22C9 /* iGoHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E68141FE1CACDF56000E22C9 /* iGoHomeViewController.m */; };
+		E68142031CACE0EB000E22C9 /* iGoSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E68142021CACE0EB000E22C9 /* iGoSearchBar.m */; };
+		E68142051CACE0F6000E22C9 /* iGoSearchBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = E68142041CACE0F6000E22C9 /* iGoSearchBar.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +43,6 @@
 		E68141C21CACC8D3000E22C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E68141C41CACC8D3000E22C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E68141C51CACC8D3000E22C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E68141C71CACC8D3000E22C9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E68141C81CACC8D3000E22C9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E68141CB1CACC8D4000E22C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E68141CE1CACC8D4000E22C9 /* iGo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iGo.xcdatamodel; sourceTree = "<group>"; };
 		E68141D01CACC8D4000E22C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +54,13 @@
 		E68141E51CACC8D4000E22C9 /* iGoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iGoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E68141E91CACC8D4000E22C9 /* iGoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iGoUITests.m; sourceTree = "<group>"; };
 		E68141EB1CACC8D4000E22C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E68141F91CACCE99000E22C9 /* iGoMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iGoMainViewController.h; sourceTree = "<group>"; };
+		E68141FA1CACCE99000E22C9 /* iGoMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iGoMainViewController.m; sourceTree = "<group>"; };
+		E68141FD1CACDF56000E22C9 /* iGoHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iGoHomeViewController.h; sourceTree = "<group>"; };
+		E68141FE1CACDF56000E22C9 /* iGoHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iGoHomeViewController.m; sourceTree = "<group>"; };
+		E68142011CACE0EB000E22C9 /* iGoSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iGoSearchBar.h; sourceTree = "<group>"; };
+		E68142021CACE0EB000E22C9 /* iGoSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iGoSearchBar.m; sourceTree = "<group>"; };
+		E68142041CACE0F6000E22C9 /* iGoSearchBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iGoSearchBar.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,15 +111,10 @@
 		E68141C01CACC8D3000E22C9 /* iGo */ = {
 			isa = PBXGroup;
 			children = (
-				E68141C41CACC8D3000E22C9 /* AppDelegate.h */,
-				E68141C51CACC8D3000E22C9 /* AppDelegate.m */,
-				E68141C71CACC8D3000E22C9 /* ViewController.h */,
-				E68141C81CACC8D3000E22C9 /* ViewController.m */,
+				E68141FC1CACDF3D000E22C9 /* Home */,
+				E68141F81CACCAA2000E22C9 /* Sys */,
+				E68141F71CACCA93000E22C9 /* Main */,
 				E68141CA1CACC8D4000E22C9 /* Main.storyboard */,
-				E68141D01CACC8D4000E22C9 /* Assets.xcassets */,
-				E68141D21CACC8D4000E22C9 /* LaunchScreen.storyboard */,
-				E68141D51CACC8D4000E22C9 /* Info.plist */,
-				E68141CD1CACC8D4000E22C9 /* iGo.xcdatamodeld */,
 				E68141C11CACC8D3000E22C9 /* Supporting Files */,
 			);
 			path = iGo;
@@ -120,6 +123,10 @@
 		E68141C11CACC8D3000E22C9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E68141D01CACC8D4000E22C9 /* Assets.xcassets */,
+				E68141D21CACC8D4000E22C9 /* LaunchScreen.storyboard */,
+				E68141D51CACC8D4000E22C9 /* Info.plist */,
+				E68141CD1CACC8D4000E22C9 /* iGo.xcdatamodeld */,
 				E68141C21CACC8D3000E22C9 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -141,6 +148,44 @@
 				E68141EB1CACC8D4000E22C9 /* Info.plist */,
 			);
 			path = iGoUITests;
+			sourceTree = "<group>";
+		};
+		E68141F71CACCA93000E22C9 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E68141F91CACCE99000E22C9 /* iGoMainViewController.h */,
+				E68141FA1CACCE99000E22C9 /* iGoMainViewController.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		E68141F81CACCAA2000E22C9 /* Sys */ = {
+			isa = PBXGroup;
+			children = (
+				E68141C41CACC8D3000E22C9 /* AppDelegate.h */,
+				E68141C51CACC8D3000E22C9 /* AppDelegate.m */,
+			);
+			name = Sys;
+			sourceTree = "<group>";
+		};
+		E68141FC1CACDF3D000E22C9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E68142001CACE0CF000E22C9 /* Control */,
+				E68141FD1CACDF56000E22C9 /* iGoHomeViewController.h */,
+				E68141FE1CACDF56000E22C9 /* iGoHomeViewController.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		E68142001CACE0CF000E22C9 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				E68142011CACE0EB000E22C9 /* iGoSearchBar.h */,
+				E68142021CACE0EB000E22C9 /* iGoSearchBar.m */,
+				E68142041CACE0F6000E22C9 /* iGoSearchBar.xib */,
+			);
+			name = Control;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,11 +250,13 @@
 		E68141B61CACC8D3000E22C9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = iGo;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = Eastblue;
 				TargetAttributes = {
 					E68141BD1CACC8D3000E22C9 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = F7H6YLSJC6;
 					};
 					E68141D91CACC8D4000E22C9 = {
 						CreatedOnToolsVersion = 7.3;
@@ -249,6 +296,7 @@
 				E68141D41CACC8D4000E22C9 /* LaunchScreen.storyboard in Resources */,
 				E68141D11CACC8D4000E22C9 /* Assets.xcassets in Resources */,
 				E68141CC1CACC8D4000E22C9 /* Main.storyboard in Resources */,
+				E68142051CACE0F6000E22C9 /* iGoSearchBar.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +321,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E68141C91CACC8D3000E22C9 /* ViewController.m in Sources */,
+				E68141FF1CACDF56000E22C9 /* iGoHomeViewController.m in Sources */,
 				E68141C61CACC8D3000E22C9 /* AppDelegate.m in Sources */,
+				E68141FB1CACCE99000E22C9 /* iGoMainViewController.m in Sources */,
+				E68142031CACE0EB000E22C9 /* iGoSearchBar.m in Sources */,
 				E68141C31CACC8D3000E22C9 /* main.m in Sources */,
 				E68141CF1CACC8D4000E22C9 /* iGo.xcdatamodeld in Sources */,
 			);
@@ -417,10 +467,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = iGo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Eastblue.iGo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -428,10 +481,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = iGo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Eastblue.iGo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

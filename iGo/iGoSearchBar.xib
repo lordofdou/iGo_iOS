@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="4ew-DU-UGa" customClass="iGoSearchBar">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="30"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <searchBar contentMode="redraw" placeholder="输入商品名" backgroundImage="searchbar_bg" translatesAutoresizingMaskIntoConstraints="NO" id="JjC-uq-xEd">
+                    <rect key="frame" x="0.0" y="0.0" width="300" height="30"/>
+                    <color key="barTintColor" red="0.027450980392156862" green="0.71372549019607845" blue="0.90588235294117647" alpha="1" colorSpace="calibratedRGB"/>
+                    <textInputTraits key="textInputTraits"/>
+                </searchBar>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="JjC-uq-xEd" firstAttribute="leading" secondItem="4ew-DU-UGa" secondAttribute="leading" id="1O7-mc-cpF"/>
+                <constraint firstItem="JjC-uq-xEd" firstAttribute="top" secondItem="4ew-DU-UGa" secondAttribute="top" id="akI-Fo-kTL"/>
+                <constraint firstAttribute="bottom" secondItem="JjC-uq-xEd" secondAttribute="bottom" id="eRU-hd-0sX"/>
+                <constraint firstAttribute="trailing" secondItem="JjC-uq-xEd" secondAttribute="trailing" id="ec8-FY-mpB"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="242" y="145"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="searchbar_bg" width="1" height="30"/>
+    </resources>
+</document>
